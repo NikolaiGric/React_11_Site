@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.search-input {
+    width: 170px;
+    margin: 0 0px;
+}
+.search-button {
+    background-color: #00BFCF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0 130px 130px 0; /* Верхний правый и нижний правый углы закруглены */
+    padding: 10px 20px;
+    width: 170px;
+    height: 49.2px;
+}

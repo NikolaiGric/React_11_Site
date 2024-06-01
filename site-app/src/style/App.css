@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('C:/Users/nikol/OneDrive/Рабочий стол/Демон/Img/banner Image.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 75%;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* Отступ между верхней панелью и содержимым */
+}
+
+.text {
+    font-size: 24px;
+    color: dark;
+    text-align: center;
+    margin: 20px 0 100px 0; /* Отступ снизу для добавления пространства между Text и Search */
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px; /* Отступ между Text и Search */
+}
+
+.search-input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.search-button {
+    background-color: #00BFCF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0 130px 130px 0;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .button {
+        font-size: 18px;
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+    .text {
+        font-size: 20px;
+        width: 80%;
+    }
+    .search-input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .search-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

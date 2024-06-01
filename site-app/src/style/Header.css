@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.header-item {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
